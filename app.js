@@ -34,11 +34,11 @@ function onSuccess(position) {
 			//console.log(locationElement)
 			locationElement.innerHTML = `${weatherInfo.name + ' ' + weatherInfo.sys.country}`;
 
-			temperatureDescription.innerHTML = `${weatherInfo.weather[0].main}`;
+			temperatureDescription.innerHTML = `${weatherInfo.weather[0].description}`;
 			//console.log(weatherInfo.weather[0].main);
 
 			//console.log(parseInt(weatherInfo.main.temp - 273.15));
-			//console.log(weatherInfo);
+			console.log(`Thanks to check my code '-'`);
 		});
 }
 
